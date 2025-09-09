@@ -2,17 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, td{
+            border: 1px solid  rgb(0, 0, 0);
+        }
+    </style>
 </head>
 <body>
-    <title>piesek o nazwie jacuś</title>
-    <h1>piesek o nazwie jacuś</h1>
-  <ol>
-    <li><h1>pies jacuś</h1></li>
-  </ol>
-    <img src="piesek.jpg" alt="">
-    <h3>ciekawostka o psach</h3>
-    <p><h1><span style="color: aqua;">Psy mają fascynujący, około pięciokrotnie bardziej rozwinięty niż ludzki, zmysł węchu, co pozwala im na wykrywanie zapachów z ogromną precyzją, a jego analiza angażuje czterokrotnie większą część mózgu, niż u ludzi. Ich nos jest unikatowy jak ludzkie odciski palców, a ich zdolność wykrywania zapachów jest tak wysoka, że potrafią wyczuć obecność raka u człowieka, czy nawet zwłoki pod wodą, co czyni je nieocenionymi w wielu dziedzinach pracy.</span></h1></p>
+<h6>temat</h6>
+<h2>Formularz</h2>
+
+<form action="plik.php"  method="post">
+    <h2>Oddam kota bądz kotke</h2>
+    
+    <label for="wiek">
+     <p>wpisz wiek w pole</p>
+     <input type="number" name="wiek" id="wiek">
+
+    </label>
+
+    <label for="imie">
+        <p>imie kota</p>
+        <input type="text" name="imie" id="imie">
+    </label>
+    <label for="waga">
+        <p>waga kota</p>
+        <input type="number"  name="waga" id="waga">
+
+
+    </label>
+
+    <label for="email">
+        <p>email składającego</p>
+        <input type="email"  name="email" id="email">
+
+    </label>
+
+    <label for="plec">
+        <p>płeć</p>
+        
+
+    </label>
+    
+
+
+    
+    
+    <select name="plec" id="plec">
+   <option value="k">kotka</option>
+   <option value="m">kot</option>
+    </select>
+    <input type="radio" value="Syberyjski" name="rasa" >
+    <input type="radio" value="kot dachowiec" name="rasa">
+    <input type="radio" value="kot domowy" name="rasa">
+
+
+<button>Wyślij Formularz</button>
+
+
+
+</form>
+
+
+
 </body>
 </html>
